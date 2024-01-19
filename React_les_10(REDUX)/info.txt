@@ -1,0 +1,30 @@
+
+// EXAMPLE with COUNTER
+
+// условие : // const defaultState = 0
+
+// const reducer = (store = defaultState, action) => {
+//   // switch - работает почти как if/else
+//   switch (action.type) {
+//     case "INCR":
+//       return store + action.payload;
+
+//     case "DECR":
+//       return store - action.payload;
+
+//     case "RESET":
+//       return 0;
+
+//     default:
+//       return store;
+//   }
+// };
+
+// Генератор action = это функция, которая возвращает объект action. Используется на стороне компонентов 
+
+
+// Мини-ДЗ
+// Задача 1
+// Реализуйте кнопку, которая будет возводить имена в верхний регистр (полностью)
+// Задача 2
+// Реализуйте удаление сотрудника по двойному нажатию (удаление по ID)

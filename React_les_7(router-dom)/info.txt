@@ -1,0 +1,27 @@
+1.npm i react-router-dom - библиотека для многостраничника
+
+2. import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
+3. создаем папку pages и инициализируем каждую страница по типу HomePage, AboutPage ...
+
+4. в App объявляем роуты 
+      <Router>
+        <Routes>
+          <Route path='/' element={<HomePage/>} />
+          ...
+        </Routes>
+      </Router>
+
+5.  <Route path='*' element={<NotFoundPage/>} /> ERROR 404 
+
+6. Link так же работает как а, но не обновляем страницу. Работает только внутри Router 
+      
+7.   const {} = useParams() - позволяет получить параметр (id), который мы объявили в route через :('/about/:id/:title')
+
+8.  <p>{user.company?.name}</p> -- оператор опциональной последовательности ( когда мы хотим вывести элемент из объекта находящийся в массиве)
+
+9.  const navigate = useNavigate() 
+
+// ДЗ 
+// Разобрать что такое outlet 
+// Разобрать хук useLocation

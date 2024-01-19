@@ -1,0 +1,11 @@
+npm i react-hook-form - установка useForm
+
+ --------
+ let {
+        register,
+        handleSubmit,
+        formState: {errors}
+    } = useForm() 
+
+
+Documentation -- https://react-hook-form.com/docs/useform/register 
